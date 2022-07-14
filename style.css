@@ -1,0 +1,167 @@
+:root {
+  --primary-color: #ba68c8;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f2f2f2;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+/***** NAV-BAR *****/
+.navbar {
+  background-color: white;
+  padding: 1em;
+  max-width: 100%;
+}
+.nav-links {
+  gap: 5rem;
+  display: flex;
+}
+.logo img {
+  width: 5em;
+  height: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+header {
+  background-color: white;
+}
+
+section {
+  padding: 5em 2em;
+}
+/***** End NAV-BAR *****/
+
+/***** Hero-Section *****/
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-content: center;
+}
+.hero__left {
+  margin: auto;
+  width: 50%;
+}
+
+.hero__right {
+  width: 50%;
+}
+.hero__right img {
+  width: 30em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 1.3em;
+}
+
+.hero-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 4rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  padding: 0.5em 1em;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: bold;
+  background-color: var(--primary-color);
+}
+/***** End Hero-Section *****/
+
+/***** Feature-section *****/
+.feature-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+}
+li img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.feature-section li {
+  text-align: center;
+  padding: 2em 1em;
+}
+
+/***** End Feature-section *****/
+
+/***** quote section *****/
+.quote-section {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+cite {
+  align-self: end;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+/***** End quote section *****/
+
+/***** Call To Action *****/
+.call-to-action {
+  background-color: white;
+}
+
+.callToAction {
+  width: 50%;
+  margin: auto;
+  color: white;
+  background-color: #37474f;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 2rem 2rem;
+}
+
+.btn-call {
+  background: none;
+  border-radius: 10px;
+  border: solid 3px;
+}
+/***** End Call To Action *****/
+.cp-txt {
+  margin: 0 auto;
+  width: 30rem;
+  padding: 2rem 6.5rem;
+}
