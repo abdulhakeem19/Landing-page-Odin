@@ -84,7 +84,7 @@ h1 {
   padding: 1rem 4rem;
 }
 
-button {
+.btn {
   background-color: var(--primary-color);
   padding: 0.5em 1em;
   border-radius: 25px;
@@ -158,6 +158,9 @@ cite {
   background: none;
   border-radius: 10px;
   border: solid 3px;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
 }
 /***** End Call To Action *****/
 .cp-txt {
